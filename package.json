@@ -1,11 +1,13 @@
 {
   "name": "markov-chain-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Markov Chain generator class for text",
-  "main": "src/markov-chain.js",
+  "main": "dist/markov-chain.min.js",
   "scripts": {
-    "build": "webpack",
-    "prepublish": "npm run build; jsdoc2md --files src/* > documentation.md"
+    "build": "npm run clean; webpack",
+    "clean": "rm -rf dist/",
+    "jsdoc": "jsdoc2md --files src/* > documentation.md",
+    "prepublish": "npm run build; npm run jsdoc"
   },
   "author": "Thomas Alrek <thomas@alrek.no>",
   "license": "MIT",
