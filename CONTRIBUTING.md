@@ -12,7 +12,7 @@ Install it:
 
 Make your changes. And build it. Test it by serving up the example under /example
 
-    npm run build
+    npm build
 
 If you are filing a bug report, make sure that you test it with the development build, not the minimized build.
 

@@ -21,7 +21,7 @@ If you just want to use it standalone, you can use the compiled and minified ver
 # Usage
 
 ```javascript
-const MarkovChain = require('./src/markov-chain-js')
+const MarkovChain = require('./src/markov-chain.js')
 
 const options = {
   source: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
