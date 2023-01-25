@@ -29,7 +29,7 @@ const rules = [
 module.exports = {
   plugins,
   entry: {
-    'markov-chain': './src/markov-chain.js'
+    'markov-chain.js': './src/markov-chain.js'
   },
   devtool: 'source-map',
   output: {
